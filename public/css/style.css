@@ -64,8 +64,23 @@ body {
   font-size: 25px;
 }
 
-.main-nav .logo {
+.logo-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-holder .logo-name {
   color: #fff;
+}
+
+.logo-holder .avatar {
+    width: 70px;
+    height: 70px;
+
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-right: 20px;
 }
 
 .nav-links {
